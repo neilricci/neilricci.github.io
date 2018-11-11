@@ -40,6 +40,12 @@ footer p {
   box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
 }
 
+#contact-form {
+  margin: 0 auto;
+  background-color: gainsboro;
+  border-radius: 10px;
+}
+
 /* Featurettes
 ------------------------- */
 
@@ -69,4 +75,16 @@ footer p {
 
 .footer-link:hover {
   color: black;
+}
+
+@media (min-width: 576px) {
+  #contact-form {
+    width: 85%;
+  }
+}
+
+@media (min-width: 992px) {
+  #contact-form {
+    width: 50%;
+  }
 }
